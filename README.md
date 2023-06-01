@@ -1,2 +1,2 @@
 # isgopaid
-This is source code for the paper "Improved Security Guarantees of PRESENT 1 against Integral Distinguishers "
+This is source code for the paper "Improved Security Guarantees of PRESENT against Integral Distinguishers "
