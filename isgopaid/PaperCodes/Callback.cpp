@@ -44,6 +44,17 @@ void callbackimSearch::callback()
 			}
 			
 
+                        vector<vector<uint8_t>> allkey(int(invar.size()), vector<uint8_t>(blockSize));
+                        for(uint r =0; r < invar.size(); r++)
+                        {
+                                for(uint i = 0; i < blockSize; i++)
+                                {
+                                        allkey[r][i] = uint(round(getSolution(keyvar[r][i])));
+                                }
+                        }
+
+
+
 
 			for(uint i = 0; i < blockSize; i++)
 			{
